@@ -7,9 +7,6 @@ play with the shape, expression, and pose parameters of SMPL, SMPL-X, MANO, FLAM
 body models. Features include:
 
 - Interactive editing of shape, expression, pose parameters
-
-https://user-images.githubusercontent.com/6137870/147475119-03de271f-115e-4ecf-816f-5c182a05dc12.mp4
-
 - Visualize body model joints and joint names
 - Simple IK solver to match an input pose
 - Save edited model parameters
