@@ -8,7 +8,7 @@ body models. Features include:
 
 - Interactive editing of shape, expression, pose parameters
 
-https://raw.githubusercontent.com/mkocabas/body-model-visualizer/master/data/assets/01_model_editing_edit.mp4
+https://user-images.githubusercontent.com/6137870/147475119-03de271f-115e-4ecf-816f-5c182a05dc12.mp4
 
 - Visualize body model joints and joint names
 - Simple IK solver to match an input pose
