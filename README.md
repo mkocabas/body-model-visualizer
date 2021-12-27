@@ -7,12 +7,47 @@ play with the shape, expression, and pose parameters of SMPL, SMPL-X, MANO, FLAM
 body models. Features include:
 
 - Interactive editing of shape, expression, pose parameters
+
+
+https://user-images.githubusercontent.com/6137870/147476574-983063a8-233b-400c-bd64-7d946578919b.mp4
+
+
 - Visualize body model joints and joint names
+
+
+https://user-images.githubusercontent.com/6137870/147476577-39cd3a59-1add-4e2d-8c87-406ef964b558.mp4
+
+
 - Simple IK solver to match an input pose
+
+
+https://user-images.githubusercontent.com/6137870/147476585-9bbc0018-9220-4efa-9f4f-f37fdcf35db9.mp4
+
+
 - Save edited model parameters
+
+
+https://user-images.githubusercontent.com/6137870/147476590-d1b3e275-207e-4b30-99d6-0386f5ab74c5.mp4
+
+
 - View controls
+
+
+https://user-images.githubusercontent.com/6137870/147476594-cf244338-c841-4f17-a221-98038fdd9f4a.mp4
+
+
 - Lighting controls
+
+
+https://user-images.githubusercontent.com/6137870/147476612-ccd73006-4e7d-4caf-ae99-50418444f1fa.mp4
+
+
 - Material settings
+
+
+https://user-images.githubusercontent.com/6137870/147476625-8d019582-2a15-41f8-ae7f-93435e7e2529.mp4
+
+
 
 Even though there are existing Blender/Unity plugins for these models, our main
 audience here is researchers who would like to quickly edit/visualize body models
@@ -21,7 +56,7 @@ without the need to install a graphics software.
 
 ## Installation
 
-Clone the repo and install the requirements. Note that we tested with Python 3.9.
+Clone the repo and install the requirements (use python3.9).
 
 ```shell
 pip install -r requirements.txt
