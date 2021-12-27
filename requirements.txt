@@ -1,0 +1,11 @@
+ipdb==0.13.9
+joblib==1.1.0
+loguru==0.5.3
+matplotlib==3.5.1
+numpy==1.21.5
+open3d==0.14.1
+scipy==1.7.3
+torch==1.10.1
+tqdm==4.62.3
+smplx==0.1.28
+chumpy==0.70
