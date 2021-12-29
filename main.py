@@ -32,6 +32,7 @@ import glob
 import torch
 import joblib
 import platform
+import argparse
 import numpy as np
 import open3d as o3d
 from loguru import logger
@@ -1549,24 +1550,24 @@ class AppWindow:
         self._scene.scene.scene.render_to_image(on_image)
 
 
-def main():
+def main(args):
+    if args.web:
+        logger.info('Initializing web visualization')
+        o3d.visualization.webrtc_server.enable_webrtc()
+
     # We need to initalize the application, which finds the necessary shaders
     # for rendering and prepares the cross-platform window abstraction.
     gui.Application.instance.initialize()
 
     w = AppWindow(1920, 1080)
 
-    if len(sys.argv) > 1:
-        path = sys.argv[1]
-        if os.path.exists(path):
-            w.load(path)
-        else:
-            w.window.show_message_box("Error",
-                                      "Could not open file '" + path + "'")
-
     # Run the event loop. This will not return until the last window is closed.
     gui.Application.instance.run()
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--web', action='store_true', help='Enable web visualization')
+
+    args = parser.parse_args()
+    main(args)

@@ -48,6 +48,7 @@ https://user-images.githubusercontent.com/6137870/147476612-ccd73006-4e7d-4caf-a
 https://user-images.githubusercontent.com/6137870/147476625-8d019582-2a15-41f8-ae7f-93435e7e2529.mp4
 
 
+- Web visualization support
 
 Even though there are existing Blender/Unity plugins for these models, our main
 audience here is researchers who would like to quickly edit/visualize body models
@@ -98,6 +99,10 @@ data
 Finally, run:
 ```shell
 python main.py
+```
+If you want to enable web visualization, run:
+```shell
+python main.py --web
 ```
 
 ## Guidelines
